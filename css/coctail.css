@@ -1,0 +1,52 @@
+*{
+	margin:0;
+	padding:0;
+}
+/*****common-css*****/
+h1, h2, h3, h4, h5, h6{
+	margin:0;
+	padding:0;
+}
+body{
+font-family: 'Open Sans', sans-serif;
+}
+.main-heading{
+	position:relative;
+	width:100%;
+}
+.main-heading h2{
+	font-size:30px;
+}
+.main-heading h1{
+	font-size:50px;
+}
+/****banner-area*****/
+
+/* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  
+ /******detail-area*****/
+ 
+ .details-area{
+	width:100%;
+	float:left;
+	position:relative;
+	overflow:hidden;
+ }
+ .detail50 ul{
+	 list-style-type:none;
+ }
+ .detail50 ul li:before{
+	 content:"\2022";
+	 color:#A00002;
+	 /* width: 19px; */
+	 /* height:50px; */
+	 display: inline-block;
+	 font-size: 30px;
+	 line-height: 48px;
+	}
+	
+

@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/***banner-area****/
+
+.banner-area{
+    width: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 100px;
+    background-image: url(../image/contact-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    background-color: #00000069;
+    padding: 270px 0;
+}
+.banner-area .main-heading h1{
+
+color: #fff;
+
+font-size: 80px;
+}
+
+/***contact-area***/
+.contact-area{
+width: 100%;
+float: left;
+position: relative;
+overflow: hidden;
+margin-bottom: 100px;
+}
+
+.details{
+    width: 100%;
+    position: relative;
+    padding: 0px 76px 0;
+}
+.details .main-heading h1{
+    
+}
+.details .main-heading p{
+    
+margin-bottom: 25px;
+    
+text-align: left;
+}
+.all-dt{
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.all-dt h3{font-size: 16px;font-weight: 400;}
+.all-dt p{
+    text-align: center;
+}
+
+.map-area{
+    text-align: center;
+}

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/***banner-area****/
+
+.banner-area{
+    width: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 100px;
+    background-image: url(../image/foodmenu-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+.overlay{
+    width: 100%;
+    background-color: #00000069;
+    padding: 300px 0;
+}
+.banner-area .main-heading h1{
+    font-size: 80px;
+    color: #fff;
+}
+
+/***starter*****/
+
+.starters-area{
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 100px;
+}
+.menu-list{
+    width: 100%;
+    position: relative;
+}
+.menu-list .food-items{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.menu-list .food-name{
+    width: 38%;
+    float: left;
+    padding: 0 1%;
+    text-align: center;
+}
+.menu-list .food-name h3{
+    font-size: 20px;
+}
+.menu-list .line-area{
+    border-top: 1px solid #979494;
+    border-bottom: 1px solid #979494;
+    width: 36%;
+    float: left;
+    padding: 2px 1%;
+    margin-top: 10px;
+}
+.menu-list .price-area{
+    float: left;
+    font-size: 15px;
+    width: 21%;
+    padding: 0 1%;
+    text-align: center;
+}
+.menu-list .price-area h3{
+    font-size: 25px;
+}
+
+/****main-course****/
+
+.mainCourse-area{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+margin-bottom: 100px;
+}
+.img-area{
+    width: 100%;
+    background-image: url(../image/main-course3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+    margin-bottom: 100px;
+}
+.img-area .overlay{
+    padding: 250px 0;
+}
+
+/***desserts-area****/
+
+.desserts-area{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 100px;
+}
+.desserts-area .img-area{
+    background-image: url(../image/dessert-bg2.jpg);
+}
